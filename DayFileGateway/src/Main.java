@@ -17,6 +17,7 @@ import java.util.logging.Logger;
  * 하이옥스->운영서버->사업개발실
  *
  */
+//TEST
 public class Main {
 	
 	private static final Logger LOG = Logger.getGlobal();
