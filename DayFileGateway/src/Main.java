@@ -22,21 +22,21 @@ public class Main {
 	
 	private static final Logger LOG = Logger.getGlobal();
 	private static final String NG_URL = "URL";				// 농공산단 URL
-    private static final String NG_USER = "ID";						// 농공산단 계정
-    private static final int NG_PORT = 1122;							// 농공산단 port
-    private static final String NG_PW = "PW";					// 농공산단 비밀번호
-    private static final String NG_PATH = "DIRECTORY";					// 농공산단 디렉토리(서버)
-    private static final String HI_URL = "URL";			// 하이옥스 URL
-    private static final String HI_USER = "ID";							// 하이옥스 계정
-    private static final int HI_PORT = 22;								// 하이옥스 port
-    private static final String HI_PW = "PW";					// 하이옥스 비밀번호
+    private static final String NG_USER = "ID";				// 농공산단 계정
+    private static final int NG_PORT = 1122;				// 농공산단 port
+    private static final String NG_PW = "PW";				// 농공산단 비밀번호
+    private static final String NG_PATH = "DIRECTORY";		// 농공산단 디렉토리(서버)
+    private static final String HI_URL = "URL";				// 하이옥스 URL
+    private static final String HI_USER = "ID";				// 하이옥스 계정
+    private static final int HI_PORT = 22;					// 하이옥스 port
+    private static final String HI_PW = "PW";				// 하이옥스 비밀번호
     private static final String HI_PATH = "DIRECTORY";		// 하이옥스 디렉토리(서버)
-    private static final String BD_URL = "URL";					// 사업개발실 URL
-    private static final String BD_USER = "ID";					// 사업개발실 계정
-    private static final int BD_PORT = 2121;							// 사업개발실 port
-    private static final String BD_PW = "PW";					// 사업개발실 비밀번호
+    private static final String BD_URL = "URL";				// 사업개발실 URL
+    private static final String BD_USER = "ID";				// 사업개발실 계정
+    private static final int BD_PORT = 2121;				// 사업개발실 port
+    private static final String BD_PW = "PW";				// 사업개발실 비밀번호
     private static final String BD_NG_PATH = "DIRECTORY";	// 사업개발실 디렉토리(서버)
-    private static final String BD_HI_PATH = "DIRECTORY";		// 사업개발실 디렉토리(서버)
+    private static final String BD_HI_PATH = "DIRECTORY";	// 사업개발실 디렉토리(서버)
     
     public static void main(String[] args) throws SecurityException, IOException {
     	// 로그 설정 start
