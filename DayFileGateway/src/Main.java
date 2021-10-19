@@ -17,26 +17,26 @@ import java.util.logging.Logger;
  * 하이옥스->운영서버->사업개발실
  *
  */
-//TEST
+
 public class Main {
 	
 	private static final Logger LOG = Logger.getGlobal();
-	private static final String NG_URL = "220.80.195.130";				// 농공산단 URL
-    private static final String NG_USER = "itman";						// 농공산단 계정
+	private static final String NG_URL = "URL";				// 농공산단 URL
+    private static final String NG_USER = "ID";						// 농공산단 계정
     private static final int NG_PORT = 1122;							// 농공산단 port
-    private static final String NG_PW = "itman0808!";					// 농공산단 비밀번호
-    private static final String NG_PATH = "/data/ifs";					// 농공산단 디렉토리(서버)
-    private static final String HI_URL = "hiox-pms.iptime.org";			// 하이옥스 URL
-    private static final String HI_USER = "pi";							// 하이옥스 계정
+    private static final String NG_PW = "PW";					// 농공산단 비밀번호
+    private static final String NG_PATH = "DIRECTORY";					// 농공산단 디렉토리(서버)
+    private static final String HI_URL = "URL";			// 하이옥스 URL
+    private static final String HI_USER = "ID";							// 하이옥스 계정
     private static final int HI_PORT = 22;								// 하이옥스 port
-    private static final String HI_PW = "itman0808!";					// 하이옥스 비밀번호
-    private static final String HI_PATH = "/home/pi/IDP_HIOX/isdp";		// 하이옥스 디렉토리(서버)
-    private static final String BD_URL = "192.168.0.4";					// 사업개발실 URL
-    private static final String BD_USER = "ehdud0311";					// 사업개발실 계정
+    private static final String HI_PW = "PW";					// 하이옥스 비밀번호
+    private static final String HI_PATH = "DIRECTORY";		// 하이옥스 디렉토리(서버)
+    private static final String BD_URL = "URL";					// 사업개발실 URL
+    private static final String BD_USER = "ID";					// 사업개발실 계정
     private static final int BD_PORT = 2121;							// 사업개발실 port
-    private static final String BD_PW = "itman1234!@";					// 사업개발실 비밀번호
-    private static final String BD_NG_PATH = "/NASHDD/12_EMS2_PMS/수집데이터/농공산단";	// 사업개발실 디렉토리(서버)
-    private static final String BD_HI_PATH = "/NASHDD/12_EMS2_PMS/수집데이터/HIOX";		// 사업개발실 디렉토리(서버)
+    private static final String BD_PW = "PW";					// 사업개발실 비밀번호
+    private static final String BD_NG_PATH = "DIRECTORY";	// 사업개발실 디렉토리(서버)
+    private static final String BD_HI_PATH = "DIRECTORY";		// 사업개발실 디렉토리(서버)
     
     public static void main(String[] args) throws SecurityException, IOException {
     	// 로그 설정 start
